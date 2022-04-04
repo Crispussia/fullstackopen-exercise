@@ -1,0 +1,9 @@
+title  Exercise 06 Degbelo
+
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+server-->browser: 201 CREATED {message:"note created"}
+
+note over browser
+browser renders the page 
+with new information
+end note
